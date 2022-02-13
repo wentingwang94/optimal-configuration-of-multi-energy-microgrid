@@ -1,13 +1,14 @@
 # optimal-configuration-of-multi-energy-microgrid
 ## Irradiance-to-power conversion based on physical model chain: An application on the optimal configuration of multi-energy microgrid in cold climate
 
+### Requirments：
 The code is written in Python, and some packages should be installed before the scripts can be executed smoothly.  
   * Package [pandas](https://pandas.pydata.org/pandas-docs/stable/index.html) is a fast, BSD-licensed library that provides high-performance data structures and data analysis tools.
   * Package [numpy](https://numpy.org/doc/stable/) is the fundamental package for scientific computing.
   * Package [pvlib](https://pvlib-python.readthedocs.io/en/stable/) provides functions for simulating the performance of PV systems.
   * Package [pyomo](https://pyomo.readthedocs.io/en/stable/) is optimization modeling language.
 
-Other Python packages that used for plotting the results include seaborn and matplotlib. And the optimization solver is CPLEX Studio 12.8.
+Other Python packages that used for plotting the results include [seaborn](https://seaborn.pydata.org/) and [matplotlib](https://matplotlib.org/). And the optimization solver is CPLEX Studio 12.8.
 
 ### Data: 
 The data part of the supplementary material contains two files, one is the weather data downloaded from NSRDB [NSRDB_download_data.csv](https://github.com/wentingwang94/optimal-configuration-of-multi-energy-microgrid/blob/main/NSRDB_download_data.csv), and other is the input data of microgrid optimal configuration model [testdata_final.csv](https://github.com/wentingwang94/optimal-configuration-of-multi-energy-microgrid/blob/main/testdata_final.csv). 
